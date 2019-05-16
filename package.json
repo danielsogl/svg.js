@@ -19,7 +19,10 @@
   "files": [
     "/dist",
     "/src",
-    "/svg.js.d.ts"
+    "/svg.js.d.ts",
+    "README.md",
+    "LICENSE.txt",
+    "CHANGELOG.md"
   ],
   "maintainers": [
     "Wout Fierens <wout@mick-wout.com> (https://svgdotjs.github.io/)",
@@ -40,13 +43,6 @@
   "publishConfig": {
     "registry": "http://centos-docker-dev:4873"
   },
-  "files": [
-    "/dist",
-    "README.md",
-    "LICENSE.txt",
-    "CHANGELOG.md",
-    "svg.js.d.ts"
-  ],
   "github": "https://github.com/svgdotjs/svg.js",
   "license": "MIT",
   "typings": "./svg.js.d.ts",
