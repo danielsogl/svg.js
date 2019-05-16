@@ -1,10 +1,10 @@
-// Type definitions for @svgdotjs version 3.x
-// Project: @svgdotjs/svg.js
+// Type definitions for @cellent version 3.x
+// Project: @cellent/svg.js
 
 // trick to keep reference to Array build-in type
 declare class BuiltInArray<T> extends Array<T> { }
 
-declare module "@svgdotjs/svg.js" {
+declare module "@cellent/svg.js" {
 
     function SVG(): Svg;
     function SVG(selector: QuerySelector): Element;
@@ -1332,7 +1332,7 @@ declare module "@svgdotjs/svg.js" {
     class Circle extends Shape implements CircleMethods {
         constructor(node?: SVGCircleElement);
         constructor(attr: CircleAttr)
-        
+
         node: SVGCircleElement;
 
         rx(rx: number): this;
@@ -1458,7 +1458,7 @@ declare module "@svgdotjs/svg.js" {
     class Path extends Shape {
         constructor(attr: PathAttr)
         constructor(node?: SVGPathElement);
-        
+
         node: SVGPathElement;
 
         morphArray: PathArray;
