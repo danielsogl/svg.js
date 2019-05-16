@@ -37,6 +37,9 @@
     "type": "git",
     "url": "git+https://github.com/svgdotjs/svg.js.git"
   },
+  "publishConfig": {
+    "registry":"http://centos-docker-dev:4873"
+  },
   "github": "https://github.com/svgdotjs/svg.js",
   "license": "MIT",
   "typings": "./svg.js.d.ts",
